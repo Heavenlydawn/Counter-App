@@ -36,13 +36,13 @@ export default class CounterAppClass extends Component {
         </div>
         <div className="mt-20">
           <button
-            className="bg-red-500 px-12 py-3 mx-10 text-white text-2xl"
+            className="bg-green-500 px-12 py-3 mx-10 text-white text-2xl"
             onClick={this.handleIncrease.bind(this)}
           >
             Add
           </button>
           <button
-            className="bg-blue-500 px-12 py-3 text-white text-2xl"
+            className="bg-yellow-500 px-12 py-3 text-white text-2xl"
             onClick={this.handleDecrease.bind(this)}
           >
             Reduce
@@ -50,7 +50,7 @@ export default class CounterAppClass extends Component {
         </div>
         <div>
           <button
-            className="bg-green-500 px-12 py-3 mt-10 text-white text-2xl"
+            className="bg-blue-500 px-12 py-3 mt-10 text-white text-2xl"
             onClick={this.handleReset.bind(this)}
           >
             Reset
